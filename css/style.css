@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background: url("../img/background.jpg") repeat scroll center center/cover;
+    width: auto;
+    height: 25vh;
+    padding: 200px;
+}
+
+.header h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;
+    color: aliceblue;
+    text-shadow: -3px 2px 3px rgba(94,94,94,0.7);
+}
+
+
+.header #typed, .typed-cursor{
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: -3px 2px 3px rgba(94,94,94,0.7);
+
+}
