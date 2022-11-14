@@ -1,9 +1,9 @@
 var typed = new Typed('#typed', {
     strings: [
-        "Je suis étudiant à l'ESIEE-IT",
-        "En alternance dans le Groupe Monnoyeur"
+        "Bienvenue dans mon refuge.",
+        "Créateur de contenus"
       ],
-    typeSpeed: 60,
+    typeSpeed: 80,
     backDelay: 1000,
     loop: true
   });

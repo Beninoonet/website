@@ -8,26 +8,40 @@
 }
 
 .header{
-    background: url("../img/background.jpg") repeat scroll center center/cover;
-    width: auto;
-    height: 25vh;
-    padding: 200px;
+    background-color: #262626;
+    padding: 220px;
+}
+
+.header #typed, .header .typed-cursor{
+    color: white;
 }
 
 .header h1{
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 900;
-    color: aliceblue;
-    text-shadow: -3px 2px 3px rgba(94,94,94,0.7);
+    font-size: 22px;
+    color: rgb(125, 48, 197);
+}
+
+.header #open-menu{
+    margin-top: -40px;
+    padding-left: 560px;
+    color: white;
+    cursor: pointer;
 }
 
 
-.header #typed, .typed-cursor{
-    font-weight: 700;
-    font-size: 22px;
-    color: white;
-    text-transform: uppercase;
-    text-shadow: -3px 2px 3px rgba(94,94,94,0.7);
+.navbar{
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    color: wheat;
+    background-color: aqua;
+    padding: auto;
+    flex-direction: column;
+}
 
+.navbar a{
+    display: block;
+    text-align: center;
+    padding: 5px;
 }
