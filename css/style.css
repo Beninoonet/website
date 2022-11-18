@@ -8,13 +8,14 @@
 }
 
 .header{
-    padding: 12px;
+    height: 100%;
+    padding: 450px;
     background-color: #222222;
     color: #fff;
 }
 
 .header h1{
-    font-size: 32px;
+    font-size: 60px;
     text-transform: uppercase;
 }
 
@@ -28,14 +29,17 @@
 }
 
 .header #typed{
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 400;
     text-transform: uppercase;
 }
-
+.header .typed-cursor{
+    font-size: 32px;
+}
+/* NAVBAR */
 .menuburger{
     float: right;
-    margin: -26px 23px;
+    margin: -36px -140px;
     cursor: pointer;
 }
 
@@ -105,6 +109,7 @@ cursor: pointer;}
 }
 
 .menu .copyright{
+    padding-top: 30px;
     text-align: center;
     color: #222222;
 }
