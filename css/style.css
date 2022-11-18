@@ -65,7 +65,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    border: 1px solid #fff;
+
     padding: 12px;
     font-size: 22px;
     font-weight: 600;
@@ -78,7 +78,8 @@
 
 .menu ol li{
     margin-top: 10px;
-    padding: 5px;
+    margin-bottom: 12px;
+    padding: 8px;
 }
 .menu ol li a{
     text-transform: uppercase;
@@ -89,13 +90,16 @@
 }
 
 .menu ol li a:hover{
+    padding: 12px;
+    border: 1px solid #fff;
     text-decoration: underline solid 1px;
 }
 
 .menu .close{
     padding: 15px;
     text-transform: uppercase;
-    color: #fff;
+    color: #7B2D8C;
+    background-color: #fff;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
