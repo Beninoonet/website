@@ -18,6 +18,7 @@ menu.addEventListener('click', () => {
     menu.style.opacity = "0"
     menu.style.right = "-835px"
     menu.style.transition = "all 0.5s ease-out"
+    
 })
 
 const hovertitleweb = document.getElementById('webtitle')
