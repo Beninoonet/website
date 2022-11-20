@@ -1,7 +1,10 @@
 var typed = new Typed('#typed', {
     strings: [
-        "Bienvenue dans mon refuge.",
-        "Créateur de contenus"
+        "E-girl préférée de ta e-girl préférée.",
+        "Créateur de contenus.",
+        "j'ai 20 ans.",
+        "j'ai pas le bac.",
+        "Hôte d'un refuge sur discord."
       ],
     typeSpeed: 80,
     backDelay: 1000,
