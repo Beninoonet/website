@@ -4,7 +4,7 @@ var swiper = new Swiper(".swiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
-  /*   autoplay: {
+    autoplay: {
         delay: 5000,
-    }, */
+    },
   });

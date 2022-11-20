@@ -186,6 +186,7 @@
 
 .about-me .textabout p em {
     font-size: 18px;
+    font-weight: 300;
 }
 
 .swiper {
@@ -228,5 +229,82 @@
 }
 
 .swiper-slide h3 {
+    font-size: 20px;
     padding-bottom: 5px;
+    text-transform: uppercase;
+    color: #7B2D8C;
+}
+
+.swiper-slide li {
+    padding-top: 4px;
+    list-style: square;
+    text-align: center;
+    font-size: 18px;
+}
+
+.swiper-slide p {
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+/* PROJECT */
+
+.project h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: underline solid 1px;
+    background-color: #262626;
+    padding: 50px;
+    font-size: 32px;
+}
+
+.refuge {
+    background-image: url('../img/bg-web-rfg.jpg');
+    background-position: center;
+    padding: 220px;
+}
+
+.refuge h3 {
+    font-size: 55px;
+    color: #fff;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.refuge p strong {
+    text-transform: uppercase;
+    color: #7B2D8C;
+}
+
+.refuge p em {
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.refuge p {
+    color: #fff;
+    font-size: 22px;
+    padding-left: 15px;
+
+}
+
+.refuge .btn-discord {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.refuge .btn-discord a {
+    background-color: #7B2D8C;
+    padding: 20px 80px;
+    border-radius: 80px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.refuge .btn-discord a:first-child {
+    background-color: #262626;
 }
