@@ -10,7 +10,11 @@
 .header{
     height: 100%;
     padding: 450px;
-    background-color: #222222;
+    background: url('../img/bg-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
@@ -24,13 +28,23 @@
     text-decoration: none;
 }
 
+
+
 .header h1 a:hover{
     color: blueviolet;
 }
 
+.header #underh1{
+    background-color: #7B2D8C;
+    height: 2px;
+    width: 0px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+}
+
 .header #typed{
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
 }
 .header .typed-cursor{
@@ -109,11 +123,31 @@ cursor: pointer;}
     height: 2px;
     width: 30px;
     margin: 8px;
+    box-shadow: 2px 2px 3px 0px rgb(0 0 0 / 53%);
     background-color: #fff;
+    
 }
 
 .menu .copyright{
     padding-top: 30px;
     text-align: center;
     color: #222222;
+}
+
+/* ABOUTME */
+
+.about-me img{
+    width: 450px;
+    float: left;
+}
+.about-me{
+    padding: 25vh;
+}
+
+.about-me h2{
+    font-size: 34px;
+}
+
+.about-me h2 strong{
+    text-transform: uppercase;
 }
