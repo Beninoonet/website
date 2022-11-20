@@ -14,7 +14,7 @@ openthemenu.addEventListener('click', () => {
     menu.style.transition = "all 0.5s ease-in"
 })
 
-menu.addEventListener('click', () => {
+menu.addEventListener('mouseleave', () => {
     menu.style.opacity = "0"
     menu.style.right = "-835px"
     menu.style.transition = "all 0.5s ease-out"

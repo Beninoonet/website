@@ -46,6 +46,7 @@
     font-size: 32px;
     font-weight: 500;
     text-transform: uppercase;
+    cursor: default;
 }
 
 .header .typed-cursor {
@@ -141,41 +142,86 @@
 
 /* ABOUTME */
 
-.about-me img {
+.about-me .backimg img {
     padding: 25px;
     width: 450px;
+}
+
+.about-me .backimg {
+    border: #7B2D8C 20px solid;
+    width: 399px;
+    height: 420px;
     float: left;
 }
 
 .about-me {
-    padding: 120px;
+    padding: 180px;
 }
 
-.about-me h2 {
-    padding: 25px;
-    font-size: 34px;
+.about-me .textabout {
+    padding-left: 480px;
+    padding-top: 60px;
 }
 
-.about-me h2 strong {
+.about-me .textabout h2 {
+    font-size: 35px;
     text-transform: uppercase;
+    text-decoration: underline 2px;
+    font-weight: 500;
 }
 
-.about-me .uwup {
+.about-me .textabout h2 strong {
+    font-weight: 600;
+}
+
+.about-me .textabout p {
+    padding-top: 12px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.about-me .textabout p strong {
+    color: #7B2D8C;
+}
+
+.about-me .textabout p em {
     font-size: 18px;
-    padding: 15px;
-    color: #4b4b4b;
 }
 
-.about-me .uwup {
-    margin-bottom: 25px;
+.swiper {
+    width: 100%;
+    height: 100%;
 }
 
-.about-me .uwu {
-    position: relative;
-    top: 34px;
-    padding: 25px 500px;
-    background-color: #7B2D8C;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
+
+
+.swiper-slide {
+    padding-bottom: 70px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 32px;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
 }

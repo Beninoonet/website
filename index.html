@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Accueil</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -36,26 +37,48 @@
     </nav>
     <!-- ABOUT-ME -->
     <section class="about-me" id="aboutme">
-        <img src="./img/moitropbeauenfaite.jpg" alt="MOI">
-        <h2><strong>Beninoonet</strong>, 20 ans, créateur de contenus</h2>
 
-        <p class="uwup">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima aliquid minus suscipit. <br>
-            Quae eius voluptatem labore earum rem aliquid nam maiores adipisci, nostrum consequatur,
-            facere cumque veritatis sapiente corporis. Velit.
-        </p>
+        <div class="backimg"><img src="./img/moitropbeauenfaite.jpg" alt="MOI"></div>
+        <div class="textabout">
+            <h2><strong>Beninoonet</strong>, 20 ans, créateur de contenu digital</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima aliquid minus suscipit. <br>
-            Quae eius voluptatem labore earum rem aliquid nam maiores adipisci, nostrum consequatur,
-            facere cumque veritatis sapiente corporis. Velit.
-        </p>
+            <p>
+                Je m’appelle Benjamin, j’ai 20 ans et je suis un créateur de contenu digital amateur.
+            </p>
+            <p>Je suis passionné de <strong>nouvelles technologies</strong>,
+                qu’elles soient physiques <em>(exemple : les téléphones)</em> ou virtuelles <br><em>(exemple : outils de
+                    développement)</em>,
+                <br> ainsi que des <strong>jeux-vidéos</strong> principalement de type MMORPG <em>(Jeu de rôle en
+                    ligne)</em>
+                <br>
+                et de <strong>design</strong> qui regroupent énormément d’activités artistiques.
+            </p>
+            <!-- Slider main container -->
 
-        <q class="uwu">Le e-girl préféré de ton e-girl préféré</q>
     </section>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/ico/identity.png" alt="identity icon">
+                <p></p>
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/ico/identity.png" alt="identity icon">
+                <p></p>
+            </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
     <!-- LOADED SCRIPT  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- LASTED SCRIPT (don't move) -->
     <script src="./js/typed.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/swiper.js"></script>
 </body>
 
 </html>
