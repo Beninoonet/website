@@ -219,9 +219,14 @@
 .swiper-slide img {
     display: block;
     width: 32px;
+    padding-bottom: 5px;
 }
 
 .swiper-slide {
     display: flex;
     flex-direction: column;
+}
+
+.swiper-slide h3 {
+    padding-bottom: 5px;
 }
