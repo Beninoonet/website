@@ -383,3 +383,7 @@
     padding-left: 25px;
     list-style: none;
 }
+
+.footer .fnav li:hover {
+    font-style: italic;
+}
