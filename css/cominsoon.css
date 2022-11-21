@@ -9,27 +9,25 @@
 }
 
 body {
-    background: url('../img/bg-header.jpg') fixed center;
+    background: url('../img/bg-header.jpg') fixed no-repeat center;
+    background-size: cover;
 
 }
 
-
-header {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 380px;
-    left: 750px;
+.coming {
+    padding-top: 250px;
 }
 
-header h1,
-header h2,
-header h2 a {
-    text-decoration: none;
-    color: #fff;
+.coming h1 {
+    text-align: center;
+    color: white;
+    font-size: 54px;
+}
+
+.coming h2 {
     text-align: center;
 }
 
-@media screen and (min-width: 2560px) {
-    header {}
+.coming h2 a {
+    color: #fff;
 }
