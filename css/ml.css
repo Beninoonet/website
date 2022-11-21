@@ -232,3 +232,32 @@
     padding-left: 25px;
     list-style: none;
 }
+
+@media screen and (max-width: 425px) {
+
+    .header h1,
+    .header a {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .mention .edition h2,
+    .mention .intellect h2,
+    .mention .resp h2,
+    .mention .data h2,
+    .mention .cookies h2,
+    .mention .law h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mention .edition p,
+    .mention .intellect p,
+    .mention .resp p,
+    .mention .data p,
+    .mention .cookies p,
+    .mention .law p {
+        text-align: center;
+        font-size: 14px;
+    }
+}

@@ -9,16 +9,16 @@
     <title>kikidanse</title>
     <style>
         body {
-            background-image: url(./img/kikidanse.gif);
+            background: url(./img/kikidanse.gif) fixed;
+            background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-clip: content-box;
-            background-position: center;
+
         }
 
         p {
             text-align: center;
-            padding: 800px;
+            padding: 300px;
         }
 
         p a {
@@ -26,6 +26,13 @@
             color: rgb(34, 34, 34);
             padding: 12px;
             background-color: antiquewhite;
+        }
+
+        @media screen and (max-width: 768px) {
+            p {
+                padding: 0;
+            }
+
         }
     </style>
 </head>
