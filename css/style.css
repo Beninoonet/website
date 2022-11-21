@@ -33,7 +33,7 @@
 
 
 .header h1 a:hover {
-    color: blueviolet;
+    color: #7B2D8C;
 }
 
 .header #underh1 {
@@ -310,4 +310,76 @@
 
 .refuge .btn-discord a:first-child {
     background-color: #262626;
+}
+
+
+/* INSTA */
+.soon {
+    padding: 220px;
+}
+
+.soon h3 {
+    font-size: 55px;
+    color: #7B2D8C;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+.soon p {
+    color: #262626;
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #7B2D8C;
+    padding: 25px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .copyright {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer .copyright a {
+    color: white;
+    opacity: 0.2;
+    font-weight: 300;
+}
+
+.footer .rsnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .rsnav img {
+    width: 32px;
+}
+
+.footer .rsnav img:hover {
+    transform: scale(1.5);
+    transition: transform .5s ease-in-out;
+}
+
+.footer .rsnav li {
+    list-style: none;
+}
+
+.footer .fnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .fnav li {
+    padding-left: 25px;
+    list-style: none;
 }

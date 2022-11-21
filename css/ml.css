@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.header {
+    padding: 80px;
+    background-color: #262626;
+}
+
+.header h1 {
+    cursor: default;
+    text-align: right;
+    text-decoration: underline 2px dashed;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.mention .edition {
+    padding: 75px;
+}
+
+.mention .edition h2 {
+    text-transform: uppercase;
+
+    font-size: 45px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.mention .edition p {
+    padding: 15px;
+    font-size: 20px;
+    color: #3f3f3f;
+}
+
+.mention .edition .prop span {
+    font-weight: 600;
+}
+
+.mention .edition .prop strong {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.mention .intellect {
+    padding: 75px;
+    background-color: #7B2D8C;
+}
+
+.mention .intellect h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.mention .intellect p {
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.mention .intellect p {
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.mention .intellect p span,
+.mention .resp p span {
+    font-weight: 600;
+
+}
+
+.mention .intellect a {
+    color: #262626;
+}
+
+.mention .resp {
+    padding: 75px;
+}
+
+
+.mention .resp h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #7B2D8C;
+}
+
+.mention .resp p {
+    padding: 15px;
+    font-size: 20px;
+    color: #3f3f3f;
+}
+
+
+.mention .data {
+    padding: 75px;
+    background-color: #262626;
+}
+
+
+.mention .data h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    color: #7B2D8C;
+}
+
+.mention .data p {
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.mention .data a {
+    color: #7B2D8C;
+}
+
+.mention .cookies {
+    padding: 75px;
+}
+
+.mention .cookies h2 {
+    text-transform: uppercase;
+
+    font-size: 45px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.mention .cookies p {
+    padding: 15px;
+    font-size: 20px;
+    color: #3f3f3f;
+}
+
+
+.mention .law {
+    padding: 75px;
+    background-color: #7B2D8C;
+}
+
+.mention .law h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.mention .intellect p {
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.mention .law p {
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.mention .law a {
+    color: #262626;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #262626;
+    padding: 25px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer .copyright {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer .copyright a {
+    color: white;
+    opacity: 0.2;
+    font-weight: 300;
+}
+
+.footer .rsnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .rsnav img {
+    width: 32px;
+}
+
+.footer .rsnav img:hover {
+    transform: scale(1.5);
+    transition: transform .5s ease-in-out;
+}
+
+.footer .rsnav li {
+    list-style: none;
+}
+
+.footer .fnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .fnav li {
+    padding-left: 25px;
+    list-style: none;
+}
