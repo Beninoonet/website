@@ -8,30 +8,28 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.header {
-    height: 100%;
-    padding: 450px;
-    background-image: url('../img/bg-header.jpg');
-    background-position: center;
-    background-size: cover;
-    background-clip: border-box;
-    background-repeat: no-repeat;
+body {
+    background: url('../img/bg-header.jpg') fixed center;
+
 }
 
-.header h1 {
-    font-size: 65px;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 380px;
+    left: 750px;
 }
 
-.header h2 {
-    font-size: 45px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.header h2 a {
+header h1,
+header h2,
+header h2 a {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (min-width: 2560px) {
+    header {}
 }
