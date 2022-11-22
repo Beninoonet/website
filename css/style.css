@@ -387,3 +387,159 @@
 .footer .fnav li:hover {
     font-style: italic;
 }
+
+@media screen and (max-width:1024px) {
+    .header {
+        padding: 430px;
+        background-position: center;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        margin: 2px -36px;
+    }
+
+    .header #underh1 {
+        display: none;
+    }
+
+    .header #typed {
+        display: none;
+    }
+
+    .typed-cursor {
+        display: none;
+    }
+
+    .menuburger {
+        margin: 14px 63px;
+    }
+
+    .menu .title {
+        font-size: 16px;
+    }
+
+    .menu ol li a {
+        font-size: 15px
+    }
+
+    .menu .close {
+        font-size: 14px;
+    }
+
+    .menu .copyright {
+        font-size: 7px;
+    }
+
+    .about-me {
+        padding: 24px;
+    }
+
+    .about-me .textabout {
+        padding-left: 263px;
+        padding-top: 25px;
+    }
+
+    .about-me .textabout h2 {
+        font-size: 25px;
+    }
+
+    .about-me .textabout p {
+        font-size: 17px;
+    }
+
+    .about-me .textabout p em {
+        font-size: 9px;
+    }
+
+    .about-me .backimg {
+        border: #7B2D8C 5px solid;
+        width: 189px;
+        height: 206px;
+    }
+
+    .about-me .backimg img {
+        padding: 12px;
+        width: 244px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 300px;
+        background-position: center;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        margin: 2px -36px;
+    }
+
+    .header #underh1 {
+        display: none;
+    }
+
+    .header #typed {
+        display: none;
+    }
+
+    .typed-cursor {
+        display: none;
+    }
+
+    .menuburger {
+        margin: 14px 63px;
+    }
+
+    .menu .title {
+        font-size: 16px;
+    }
+
+    .menu ol li a {
+        font-size: 15px
+    }
+
+    .menu .close {
+        font-size: 14px;
+    }
+
+    .menu .copyright {
+        font-size: 7px;
+    }
+
+    .about-me {
+        padding: 24px;
+    }
+
+    .about-me .textabout {
+        padding-left: 263px;
+        padding-top: 25px;
+    }
+
+    .about-me .textabout h2 {
+        font-size: 25px;
+    }
+
+    .about-me .textabout p {
+        font-size: 17px;
+    }
+
+    .about-me .textabout p em {
+        font-size: 9px;
+    }
+
+    .about-me .backimg {
+        border: #7B2D8C 5px solid;
+        width: 189px;
+        height: 206px;
+    }
+
+    .about-me .backimg img {
+        padding: 12px;
+        width: 244px;
+    }
+
+    .refuge .btn-discord a {
+        padding: 13px 16px;
+    }
+}
