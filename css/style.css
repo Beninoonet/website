@@ -543,3 +543,134 @@
         padding: 13px 16px;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .header {
+        padding: 200px;
+
+    }
+
+    .header h1 {
+        margin: 60px -120px;
+    }
+
+    .menuburger {
+        margin: -28px -17px;
+    }
+
+    .menu .close {
+        font-size: 10px;
+    }
+
+    .about-me {
+        padding: 10px;
+    }
+
+    .about-me .textabout {
+        text-align: center;
+        padding-left: 19px;
+        padding-top: 165px;
+    }
+
+    .about-me .textabout h2 {
+        font-size: 25px;
+    }
+
+    .about-me .textabout p {
+        font-size: 17px;
+    }
+
+    .about-me .textabout p em {
+        font-size: 9px;
+    }
+
+    .about-me .backimg {
+        border: #7B2D8C 5px solid;
+        width: 100px;
+        height: 115px;
+    }
+
+    .about-me .backimg img {
+        padding: 12px;
+        width: 150px;
+    }
+
+    .project h2 {
+        padding: 20px;
+    }
+
+    .refuge .btn-discord a {
+        padding: 13px 16px;
+    }
+
+    .refuge {
+        padding: 40px;
+    }
+
+    .refuge p {
+        font-size: 16px;
+    }
+
+    .refuge h3 {
+        font-size: 35px;
+    }
+
+
+    .soon {
+        padding: 60px;
+    }
+
+    .soon h3 {
+        font-size: 35px;
+    }
+
+    .soon p {
+        font-size: 10px;
+    }
+
+    .footer a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 180px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 100px;
+    }
+
+    .header h1 {
+        margin: 60px -67px;
+    }
+
+    .menuburger {
+        margin: -28px 41px;
+    }
+
+    .about-me .textabout h2 {
+        font-size: 15px;
+    }
+
+    .about-me .textabout p {
+        line-height: 1.2;
+    }
+
+    .project h2 {
+        font-size: 15px;
+    }
+
+    .refuge h3 {
+        font-size: 20px;
+    }
+
+    .refuge .btn-discord a {
+        font-size: 10px;
+    }
+}
